@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #7059a4, #0a98f1);
+    color: white;
+}
+header {
+    text-align: center;
+    background-color: rgb(11 237 62 / 41%);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+h1, h2 {
+    margin: 10px 0;
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: none
+}
+table, th, td {
+    /* border: 1px solid #007BFF; */
+    border: none;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+tr:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+.projects {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border: #ddd solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Adjusts spacing */
+    margin-top: 10px; /* Adds some space above */
+}
+.contact-info div {
+    margin-right: 10px; /* Space between email and phone */
+    padding: 20px;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.email, .phone {
+    display: flex;
+    margin-right: 5px;
+}
+
